@@ -1,0 +1,41 @@
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 50vw;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+}
+.child_container {
+  background-color: azure;
+}
+.question {
+  text-align: center;
+  margin: 10px, 0;
+}
+
+.next_prev {
+  display: flex;
+  justify-content: space-between;
+  padding : 5px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+.input_button{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    row-gap: 10px;
+}
